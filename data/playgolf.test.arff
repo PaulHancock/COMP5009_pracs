@@ -1,0 +1,13 @@
+@relation golftest
+
+@attribute outlook { sunny, overcast, rainy }
+@attribute temperature { hot, mild, cool }
+@attribute humidity { high, normal }
+@attribute wind { true, false }
+@attribute playGolf { no, yes}
+
+@data
+rainy,mild,normal,false,?
+rainy,mild,high,true,?
+overcast,hot,high,true,?
+sunny,hot,high,true,?
